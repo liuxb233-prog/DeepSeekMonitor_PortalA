@@ -1,0 +1,40 @@
+# Local credentials and environment
+.env
+.env.*
+!.env.example
+config.json
+config.json.*
+.deepseek-monitor/
+*.pem
+*.key
+*.pfx
+
+# Python and tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build artifacts belong in GitHub Releases, not Git history
+build/
+dist/
+*.spec
+*.exe
+*.zip
+*.dll
+*.pyd
+
+# Runtime and machine-specific files
+*.log
+qa/
+_scratch/
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
